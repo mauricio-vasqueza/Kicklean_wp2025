@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    color: #222;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contacto-y-redes-sociales p {
+    text-align: center;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.red-social {
+    text-align: center;
+    width: 100px;
+}
+
+.red-social a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s;
+}
+
+.red-social a:hover {
+    transform: scale(1.1);
+}
+
+.red-social img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.red-social span {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #555;
+}
